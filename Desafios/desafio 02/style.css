@@ -1,0 +1,15 @@
+@charset "UTF-8";
+h1{
+    color: orange;
+    background-color: cadetblue;
+}
+h2{
+    color: chocolate;
+    background-color: cadetblue;
+}
+ol{
+    color: crimson;
+}
+ul{
+    color: darkgoldenrod;
+ }

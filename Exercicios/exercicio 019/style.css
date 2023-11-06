@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-color: azure;
+}
+
+#principal{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+.html{
+    background-color: red;
+    color: white;
+}
+
+.css{
+    background-color: rgb(228, 244, 46);
+    color: white;
+}
+
+h1{
+    color: rgb(4, 4, 122);
+}
+
+basico{
+    color: green;
+    font-weight: bold;
+}
+
+medio{
+    color: gold;
+    font-weight: bold;
+}
+
+avancado{
+    color: red;
+    font-weight: bold;
+}
+
+h2{
+    color: rgb(49, 49, 224);
+}
