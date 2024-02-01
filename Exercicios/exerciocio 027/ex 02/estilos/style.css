@@ -1,0 +1,109 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root{
+    --cor-primeria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-primeria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+     display: flex;
+     gap: 80px;
+}
+
+.cabecalho__link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.titulo-destaque{
+    color: var(--cor-terciaria);
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4% 15%;
+}
+
+.conteiner__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.conteudo__paragrafo{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link__subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.conteudo__links__links{
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid var(--cor-terciaria);
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    justify-content: center;
+    gap: 16px;
+}
+
+.conteudo__links__links:hover{
+    background-color: #272727;
+}
+
+.rodape{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primeria);
+    margin: 0;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
