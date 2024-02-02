@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Layout</title>
     <style>
-       .container {
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr; /*primeira celula tera o dobro das outras.*/
-            }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 
-            .item {
-            border: 1px solid blue;
-            padding: 10px;
-            }
-   </style>
+    .item {
+        border: 1px solid blue;
+        padding: 10px;
+    }
+    </style>
 </head>
 <body>
     <div class="container">
